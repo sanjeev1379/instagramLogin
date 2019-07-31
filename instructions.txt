@@ -1,0 +1,7 @@
+1) Create an Instagram application : https://www.instagram.com/developer/clients/register/
+2) Enter the fields Application Name, Description, Website URL and Valid redirect URIs. You can fill the rest of the fields later when you submit the application for review. 
+3) In the field Valid redirect URIs, add the url which points to the redirect url script (instagram-auth.php in the attached codes). You can even add a localhost url for testing purposes.
+4) In the "Security" tab, leave the default settings ("Disable implicit OAuth" should be checked & "Enforce signed requests" should be unchecked).
+5) After the application is created, you will get the Client ID & Client Secret.
+6) Edit instagram-api-settings.php and add your Client ID, Client Secret and Redirect Url
+7) Run index.php in the browser
